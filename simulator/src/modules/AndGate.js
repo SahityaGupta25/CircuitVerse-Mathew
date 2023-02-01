@@ -24,7 +24,7 @@ export default class AndGate extends CircuitElement {
         y,
         scope = globalScope,
         dir = "RIGHT",
-        inputLength = 4,
+        inputLength = 2,
         bitWidth = 1
     ) {
         /**
