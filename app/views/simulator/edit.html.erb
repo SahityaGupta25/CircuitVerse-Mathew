@@ -870,5 +870,12 @@ $("#openProjectDialog").checkBo();
 $(".download-dialog-section-2_2").checkBo();
 });
 
+// Small height BTN
+let Sbtn = document.getElmentByClass('timing-diagram-small-height');
+let canvas = document.getElementById('plotArea');
+Sbtn.addEventListener('click',function{
+    canvas.style.height = 15+'px';
+})
+
 </script>
 <script src="/js/data.js"></script>
